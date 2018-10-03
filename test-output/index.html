@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\m1048575\AppData\Local\Temp\testng-eclipse-294798592\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 6 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiRestAutomation.RestApi.GetUserdetails" hash-for-method="Test_01">Test_01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiRestAutomation.RestApi.GetUserdetails" hash-for-method="Test_02">Test_02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiRestAutomation.RestApi.GetUserdetails" hash-for-method="Test_03">Test_03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiRestAutomation.RestApi.GetUserdetails" hash-for-method="Test_04">Test_04</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiRestAutomation.RestApi.GetUserdetails" hash-for-method="Test_05">Test_05</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiRestAutomation.RestApi.GetUserdetails" hash-for-method="Test_06">Test_06</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ApiRestAutomation.RestApi.GetUserdetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_01">
+                  </a> <!-- Test_01 -->
+                  <span class="method-name">Test_01</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Lgroovy/lang/Tuple2;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.lang.Class.getDeclaredFields(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedClass$1$1.run(CachedClass.java:48)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:45)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:43)
+	at org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:46)
+	at org.codehaus.groovy.util.LazyReference.get(LazyReference.java:33)
+	at org.codehaus.groovy.reflection.CachedClass.getFields(CachedClass.java:254)
+	at groovy.lang.MetaClassImpl.addFields(MetaClassImpl.java:2363)
+	at groovy.lang.MetaClassImpl.inheritFields(MetaClassImpl.java:2358)
+	at groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2248)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3255)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3226)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:210)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:241)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.$getStaticMetaClass(ResponseSpecificationImpl.groovy)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.&lt;init&gt;(ResponseSpecificationImpl.groovy:49)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.&lt;init&gt;(ResponseSpecificationImpl.groovy:64)
+	at com.jayway.restassured.RestAssured.createTestSpecification(RestAssured.java:1447)
+	at com.jayway.restassured.RestAssured.when(RestAssured.java:761)
+	at ApiRestAutomation.RestApi.GetUserdetails.Test_01(GetUserdetails.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: groovy.lang.Tuple2
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 48 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_02">
+                  </a> <!-- Test_02 -->
+                  <span class="method-name">Test_02</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Lgroovy/lang/Tuple2;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.lang.Class.getDeclaredFields(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedClass$1$1.run(CachedClass.java:48)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:45)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:43)
+	at org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:46)
+	at org.codehaus.groovy.util.LazyReference.get(LazyReference.java:33)
+	at org.codehaus.groovy.reflection.CachedClass.getFields(CachedClass.java:254)
+	at groovy.lang.MetaClassImpl.addFields(MetaClassImpl.java:2363)
+	at groovy.lang.MetaClassImpl.inheritFields(MetaClassImpl.java:2358)
+	at groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2248)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3255)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3226)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:210)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:241)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.$getStaticMetaClass(ResponseSpecificationImpl.groovy)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.&lt;init&gt;(ResponseSpecificationImpl.groovy:49)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.&lt;init&gt;(ResponseSpecificationImpl.groovy:64)
+	at com.jayway.restassured.RestAssured.createTestSpecification(RestAssured.java:1447)
+	at com.jayway.restassured.RestAssured.when(RestAssured.java:761)
+	at ApiRestAutomation.RestApi.GetUserdetails.Test_02(GetUserdetails.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: groovy.lang.Tuple2
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 48 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_03">
+                  </a> <!-- Test_03 -->
+                  <span class="method-name">Test_03</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Lgroovy/lang/Tuple2;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.lang.Class.getDeclaredFields(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedClass$1$1.run(CachedClass.java:48)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:45)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:43)
+	at org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:46)
+	at org.codehaus.groovy.util.LazyReference.get(LazyReference.java:33)
+	at org.codehaus.groovy.reflection.CachedClass.getFields(CachedClass.java:254)
+	at groovy.lang.MetaClassImpl.addFields(MetaClassImpl.java:2363)
+	at groovy.lang.MetaClassImpl.inheritFields(MetaClassImpl.java:2358)
+	at groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2248)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3255)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3226)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:210)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:241)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.$getStaticMetaClass(ResponseSpecificationImpl.groovy)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.&lt;init&gt;(ResponseSpecificationImpl.groovy:49)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.&lt;init&gt;(ResponseSpecificationImpl.groovy:64)
+	at com.jayway.restassured.RestAssured.createTestSpecification(RestAssured.java:1447)
+	at com.jayway.restassured.RestAssured.given(RestAssured.java:741)
+	at ApiRestAutomation.RestApi.GetUserdetails.Test_03(GetUserdetails.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: groovy.lang.Tuple2
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 48 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_04">
+                  </a> <!-- Test_04 -->
+                  <span class="method-name">Test_04</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Lgroovy/lang/Tuple2;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.lang.Class.getDeclaredFields(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedClass$1$1.run(CachedClass.java:48)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:45)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:43)
+	at org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:46)
+	at org.codehaus.groovy.util.LazyReference.get(LazyReference.java:33)
+	at org.codehaus.groovy.reflection.CachedClass.getFields(CachedClass.java:254)
+	at groovy.lang.MetaClassImpl.addFields(MetaClassImpl.java:2363)
+	at groovy.lang.MetaClassImpl.inheritFields(MetaClassImpl.java:2358)
+	at groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2248)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3255)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3226)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:210)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:241)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.$getStaticMetaClass(ResponseSpecificationImpl.groovy)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.&lt;init&gt;(ResponseSpecificationImpl.groovy:49)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.&lt;init&gt;(ResponseSpecificationImpl.groovy:64)
+	at com.jayway.restassured.RestAssured.createTestSpecification(RestAssured.java:1447)
+	at com.jayway.restassured.RestAssured.given(RestAssured.java:741)
+	at ApiRestAutomation.RestApi.GetUserdetails.Test_04(GetUserdetails.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: groovy.lang.Tuple2
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 48 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_05">
+                  </a> <!-- Test_05 -->
+                  <span class="method-name">Test_05</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Lgroovy/lang/Tuple2;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.lang.Class.getDeclaredFields(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedClass$1$1.run(CachedClass.java:48)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:45)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:43)
+	at org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:46)
+	at org.codehaus.groovy.util.LazyReference.get(LazyReference.java:33)
+	at org.codehaus.groovy.reflection.CachedClass.getFields(CachedClass.java:254)
+	at groovy.lang.MetaClassImpl.addFields(MetaClassImpl.java:2363)
+	at groovy.lang.MetaClassImpl.inheritFields(MetaClassImpl.java:2358)
+	at groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2248)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3255)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3226)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:210)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:241)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.$getStaticMetaClass(ResponseSpecificationImpl.groovy)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.&lt;init&gt;(ResponseSpecificationImpl.groovy:49)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.&lt;init&gt;(ResponseSpecificationImpl.groovy:64)
+	at com.jayway.restassured.RestAssured.createTestSpecification(RestAssured.java:1447)
+	at com.jayway.restassured.RestAssured.given(RestAssured.java:741)
+	at ApiRestAutomation.RestApi.GetUserdetails.Test_05(GetUserdetails.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: groovy.lang.Tuple2
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 48 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_06">
+                  </a> <!-- Test_06 -->
+                  <span class="method-name">Test_06</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Lgroovy/lang/Tuple2;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.lang.Class.getDeclaredFields(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedClass$1$1.run(CachedClass.java:48)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:45)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:43)
+	at org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:46)
+	at org.codehaus.groovy.util.LazyReference.get(LazyReference.java:33)
+	at org.codehaus.groovy.reflection.CachedClass.getFields(CachedClass.java:254)
+	at groovy.lang.MetaClassImpl.addFields(MetaClassImpl.java:2363)
+	at groovy.lang.MetaClassImpl.inheritFields(MetaClassImpl.java:2358)
+	at groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2248)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3255)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3226)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:210)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:241)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.$getStaticMetaClass(ResponseSpecificationImpl.groovy)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.&lt;init&gt;(ResponseSpecificationImpl.groovy:49)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.&lt;init&gt;(ResponseSpecificationImpl.groovy:64)
+	at com.jayway.restassured.RestAssured.createTestSpecification(RestAssured.java:1447)
+	at com.jayway.restassured.RestAssured.given(RestAssured.java:741)
+	at ApiRestAutomation.RestApi.GetUserdetails.Test_06(GetUserdetails.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: groovy.lang.Tuple2
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 48 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\m1048575\AppData\Local\Temp\testng-eclipse-294798592\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ApiRestAutomation.RestApi.GetUserdetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Test_01')
+data.setCell(0, 2, 'ApiRestAutomation.RestApi.GetUserdetails')
+data.setCell(0, 3, 635);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Test_06')
+data.setCell(1, 2, 'ApiRestAutomation.RestApi.GetUserdetails')
+data.setCell(1, 3, 8);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Test_04')
+data.setCell(2, 2, 'ApiRestAutomation.RestApi.GetUserdetails')
+data.setCell(2, 3, 5);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Test_02')
+data.setCell(3, 2, 'ApiRestAutomation.RestApi.GetUserdetails')
+data.setCell(3, 3, 5);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test_03')
+data.setCell(4, 2, 'ApiRestAutomation.RestApi.GetUserdetails')
+data.setCell(4, 3, 4);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Test_05')
+data.setCell(5, 2, 'ApiRestAutomation.RestApi.GetUserdetails')
+data.setCell(5, 3, 4);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 661 ms</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ApiRestAutomation.RestApi.GetUserdetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test_01</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test_02</span>
+                <span class="method-start">640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test_03</span>
+                <span class="method-start">650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test_04</span>
+                <span class="method-start">658 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test_05</span>
+                <span class="method-start">667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test_06</span>
+                <span class="method-start">675 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
